@@ -58,7 +58,7 @@ export default function HomePage() {
     const { name, value } = e.target;
     setSearched((prev) => {
       return {
-        ...prev,
+       
         [name]: value,
       };
     });
