@@ -52,7 +52,7 @@ export default function HomePage() {
     } else {
       setApiData(fullData);
     }
-  }, [searched]);
+  }, []);
 
   const handleSearch = (e) => {
     const { name, value } = e.target;
